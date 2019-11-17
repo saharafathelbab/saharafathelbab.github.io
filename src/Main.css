@@ -1,0 +1,381 @@
+/* main header area */
+.container-for-main-header-area{
+  text-align: center;
+  color: white;
+  /* text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey; */
+  position: relative;
+  background-size: cover;
+  top:40px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./Background_photos/sahara-background.JPG");
+  background-repeat: no-repeat;
+}
+
+.my-name-and-title{
+  position: inherit;
+  top: 375px;
+}
+.decoration{
+  text-decoration: none;
+  color: white;
+}
+
+.my-name{
+  text-transform: uppercase;
+}
+.my-title{
+  font-family: 'Big Shoulders Text', cursive;
+}
+/* little about me section */
+.little-about-me{
+  text-align: center;
+  position: relative;
+  top: 40px;
+
+}
+
+#fact{
+  font-family: 'Merriweather', serif;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.about-card{
+  display: inline-block;
+  height: 220px;
+  width: 600px;
+}
+#contact-area{
+  display: inline-block;
+  height: 220px;
+  width: 600px;
+}
+
+/* for the overlay */
+
+.Overlay{
+  text-transform: uppercase;
+  position: relative;
+  z-index:1;
+  font-family: 'Bebas Neue', cursive;
+  color:#b5c2ff;
+  font-size: 3em;
+}
+.send-front{
+  position: relative;
+  top: -80px;
+  z-index:2;
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.no-show{
+  display: none;
+}
+
+#nope{
+    display: none;
+}
+#square{
+  height: 70px;
+  width: 70px;
+}
+#message_square{
+  height: 180px;
+  width: 180px;
+}
+/* keeping for yellow color note + if in future would like to have it be a star .fa-star{
+  color: #ffd613;
+} */
+
+.center{
+  position: relative;
+  text-align: center;
+  top: 90px;
+}
+
+
+#grey {
+  height: 600px;
+  width: 320px;
+  display: inline-block;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19),
+              0 6px 6px rgba(0,0,0,0.23);
+  background-color: white;
+}
+
+.heading{
+  text-transform: capitalize;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 1.2em;
+}
+
+.line-height{
+  line-height: 16pt;
+}
+
+/* projects section */
+
+.projects-section{
+  text-align: center;
+  position: relative;
+  top: 10px;
+  /* font-size: 17px; */
+  /* background-color:rgba(255, 196, 206, 0.20); */
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 150px));
+  grid-gap: 15px;
+  padding-left: 45px;
+
+  /* display: grid;
+  grid-column: 2/3; */
+
+
+
+}
+.item-one{
+  grid-column: 2/3;
+}
+.subtitle{
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.sub_white{
+  color: white;
+  font-family: 'Big Shoulders Text', cursive;
+  font-size: 2em;
+}
+.italics{
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.project-photo{
+  height: 150px;
+  width: 250px;
+}
+/* detailed about me */
+
+.detailed-about-me{
+  text-align: center;
+  position: relative;
+  top: -30px;
+
+}
+.paragraph{
+  font-family: 'Lateef', cursive;
+  font-size: 1.25em;
+}
+#project-paragraph{
+  padding: 0px 20px 10px 20px;
+}
+
+.paragraph_white{
+  font-family: 'Lateef', cursive;
+  font-size: 1.25em;
+  color: white;
+  padding: 0px 20px 10px 20px;
+}
+.section_title{
+  font-family: 'Big Shoulders Text', cursive;
+  text-transform: uppercase;
+  font-size: 0.9em;
+
+}
+
+.mini-about-photo{
+  height: 350px;
+  width: 300px;
+}
+#photo{
+  height: 350px;
+  width: 300px;
+}
+
+.contact-me{
+  text-align: center;
+  position: relative;
+  top: 0px;
+  background-color:#4061ff;
+  height: 460px;
+  width: 100vw;
+}
+
+/* button styles */
+
+.button-style{
+  border-radius: 20px;
+  padding: 5px 10px 8px 10px;
+  background-color: #2c51ff;
+  border: none;
+  height: 40px;
+  width: 200px;
+  color: white;
+}
+
+.button-style:hover{
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color{
+  100%{
+    /* background-color: #ffda2c;
+    color: #2c51ff;
+    border-style: solid; */
+    transform:scale(1.1);
+  }
+}
+
+.button-view-more{
+  border-radius: 20px;
+  padding: 5px 10px 8px 10px;
+  background-color: white;
+  border-style: solid;
+  border-color: #2c51ff;
+  border-width: medium;
+  height: 40px;
+  width: 200px;
+  color: #2c51ff;
+}
+
+.button-view-more:hover{
+  animation-name: background-view-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-view-color{
+  100%{
+    /* background-color: #2c51ff;
+    color: white;
+    border-style: solid; */
+    transform:scale(1.1);
+  }
+}
+
+.contact-me-email{
+  border-radius: 20px;
+  padding: 5px 10px 8px 10px;
+  background-color: white;
+  border-style: solid;
+  border-color: #4061ff;
+  border-width: medium;
+  height: 40px;
+  width: 200px;
+  color: black;
+}
+
+.contact-me-email:hover{
+  animation-name: background-view-contact;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-view-contact{
+  100%{
+    background-color: black;
+    color: white;
+    border-style: solid;
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1099px){
+  .my-name-and-title{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+}
+
+@media screen and (max-width: 1039px){
+  .my-name-and-title{
+    top: 440px;
+  }
+}
+@media screen and (max-width: 708px){
+  .my-name{
+    font-size: 1em;
+  }
+  .container-for-main-header-area{
+    background-image: url("./Background_photos/sahara-mobile.jpg");
+}
+}
+
+@media screen and (max-width: 637px){
+  .grid{
+    display:inline-block;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 598px){
+  .about-card{
+    height: 220px;
+    width: 400px;
+    /* font-size: 0.5em; */
+  }
+  #mobile_size{
+    font-size: 1.25em;
+  }
+  .paragraph_white{
+    font-size: 1.25em;
+  }
+  .section_title{
+    font-size: 0.8em;
+
+  }
+
+}
+
+@media screen and (max-width: 478px){
+  .container-for-main-header-area{
+    background-image: url("./Background_photos/mobile-sahara.png");
+}
+}
+
+@media screen and (max-width: 421px){
+  .container-for-main-header-area{
+    text-align: left;
+  }
+  .my-name-and-title{
+    top: 55px;
+    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+  }
+  .about-card{
+    height: 220px;
+    width: 300px;
+    /* font-size: 0.5em; */
+  }
+  /* #mobile_size{
+    font-size: 0.6em;
+  } */
+
+  #fact{
+    font-size: 0.7em;
+  }
+  #square{
+    height: 50px;
+    width: 50px;
+  }
+  #message_square{
+    height: 130px;
+    width: 130px;
+  }
+  .sub_white{
+    font-size: 1.2em;
+  }
+  .paragraph_white{
+    font-size: 0.8em;
+  }
+  .contact-me{
+    height: 325px;
+  }
+}
