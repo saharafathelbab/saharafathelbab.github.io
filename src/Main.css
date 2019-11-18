@@ -342,8 +342,11 @@
 }
 
 @media screen and (max-width: 421px){
-  .container-for-main-header-area{
-    text-align: left;
+   .container-for-main-header-area{
+    text-align: center;
+  }
+  .my-name{
+    font-size: 0.8em;
   }
   .my-name-and-title{
     top: 55px;
