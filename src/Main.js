@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './mylogo.jpg';
-import resume from './sahara-fathelbab-resume.pdf';
+import myresume from './sahara-fathelbab-resume.pdf';
 import me from './profilephoto.jpg';
 import lightbulb from './Drawings/lightbulb.png';
 import goldline from './Drawings/gold-line.png';
@@ -60,7 +60,7 @@ const Button=(props)=> {
 
           <a id="mywork" className="menu-item" href="#all-my-work">My Work</a>
           <a id="large-about" className="menu-item" href="#more-about-me"> About Me</a>
-          <a id="my-resume" className="menu-item" href={resume}>My Resume</a>
+          <a id="my-resume" className="menu-item" href={myresume}>My Resume</a>
 
           <a id="contact" className="menu-item" href="#contact-ME">Contact</a>
           <br/>
@@ -243,7 +243,7 @@ const Button=(props)=> {
         id_para2="mobile_size"
         summary= "I graduated with my Bachelor’s Degree in Computer Science in May 2018 and since then I’ve been focused on my front end freelance work, learning new coding environments such as Augmented Reality, and improving my skillset."
         show= "no-show"
-        link={resume}
+        link={myresume}
         name="My Resume"
         class="button-style"
         />
