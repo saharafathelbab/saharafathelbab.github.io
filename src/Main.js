@@ -133,7 +133,7 @@ const Button=(props)=> {
         alttext="asme homepage"
         id="grey"
         title="ASME"
-        summary= "Ensured design continuity and link validity of American Society of Mechanical Engineers (ASME) website through their refurbishment period to a new content management system (Kentico); praised for detailed documentation"
+        summary= "Ensured design continuity and link validity of American Society of Mechanical Engineers (ASME) website through their refurbishment period to a new content management system (Kentico); praised for detailed documentation."
         id_para2="project-paragraph"
         link="https://asme.org"
         name="View Website"
@@ -255,7 +255,7 @@ const Button=(props)=> {
           alt="gold line"
           />
 
-
+        <br/>
         <Section
           sectiontitle="Education"
           sectioninfo="Bachelor of Science in Computer Science, 2018"
@@ -290,7 +290,7 @@ const Button=(props)=> {
         id="message_square"
         alttext="space"
         about= "Let's Connect"
-        summary= "In need of an front end developer who thinks outside of the box? Look no further, let's get chatting!"
+        summary= "In need of a front end developer who thinks outside of the box? Look no further, let's get chatting!"
       />
       <Button
       link="mailto:saharafathelbab1@gmail.com"
