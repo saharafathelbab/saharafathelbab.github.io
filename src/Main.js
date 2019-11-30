@@ -263,7 +263,7 @@ const Button=(props)=> {
         <Section
           sectiontitle="Certifications"
           sectioninfo="Responsive Web Design, 2019"
-          additionalinfo="JavaScript Data Structure and Algorithms, In Progress"
+          additionalinfo="JavaScript Data Structures and Algorithms, In Progress"
         />
         <Section
           sectiontitle="Languages"
