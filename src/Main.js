@@ -153,7 +153,7 @@ const Button=(props)=> {
         id="grey"
         title="My Portfolio"
         technicalscope="Technical Scope: React.js, HTML, CSS, "
-        summary= "Developed my portfolio in React.js using stateless functional components throughout to ensure DRY Principle; recieves and renders appropriate data to screen via class and id hierarchy."
+        summary= "Developed my portfolio in React.js using stateless functional components throughout to ensure DRY Principle; receives and renders appropriate data to screen via class and id hierarchy."
         id_para2="project-paragraph"
         link="https://github.com/saharafathelbab/saharafathelbab.github.io"
         name="View Documentation"
