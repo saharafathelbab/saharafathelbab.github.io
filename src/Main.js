@@ -88,7 +88,7 @@ const Button=(props)=> {
         summary= "During the day I'm an inventive developer with a keen interest in all things from web development to Augmented and Virtual Reality. When I'm not brainstorming project ideas or reading through documentation, I'm speeding up on the track with the goal of running a 5K in 20 minutes!"
         fact= " Greater New York City Area"
         id_fact="fact"
-        link="/about"
+        link="#more-about-me"
         name="Learn More"
         class="button-style"
         />
