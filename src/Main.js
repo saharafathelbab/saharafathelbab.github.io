@@ -11,6 +11,7 @@ import portfolio from'./Work/myportfolio.png';
 import instanthealth from'./Work/instanthealth.png';
 import snowypotter from'./Work/snowypotter.jpeg';
 import cryptography from'./Work/cryptography.png';
+import chromefixme from'./Work/fixme-chrome.png';
 import './bars.css';
 import './Main.css';
 import {slide as Menu} from 'react-burger-menu';
@@ -204,6 +205,22 @@ const Button=(props)=> {
           summary= "Partnered with team through the construction of wireframes and prototypes of a web application that displayed user's historical medical data. Received rank in the top four submissions of the healthcare category."
           id_para2="project-paragraph"
           link="https://github.com/saharafathelbab/Instant-Health"
+          name="View Documentation"
+          class="button-style"
+          show="no-show"
+          />
+        <br/>
+        <br/>
+        <br/>
+        <About
+          photo={chromefixme}
+          alttext="chrome extension icon - tools"
+          id="grey"
+          title="Hackathon: Instant Health"
+          technicalscope="Technical Scope: JavaScript, jQuery, Chrome API"
+          summary= "Developed a Chrome extension that improves the readability and accessibility of a website/page/article. The extension changes the background color to white, all surrounding text to black, all links to a standard blue, and on hover the links turn red."
+          id_para2="project-paragraph"
+          link="https://github.com/saharafathelbab/FixMe-Chrome-Extension"
           name="View Documentation"
           class="button-style"
           show="no-show"
