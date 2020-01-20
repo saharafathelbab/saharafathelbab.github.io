@@ -216,9 +216,9 @@ const Button=(props)=> {
           photo={chromefixme}
           alttext="chrome extension icon - tools"
           id="grey"
-          title="Hackathon: Instant Health"
+          title="FixMe Chrome Extension"
           technicalscope="Technical Scope: JavaScript, jQuery, Chrome API"
-          summary= "Developed a Chrome extension that improves the readability and accessibility of a website/page/article. The extension changes the background color to white, all surrounding text to black, all links to a standard blue, and on hover the links turn red."
+          summary= "Developed an extension that improves the readability and accessibility of a website/page/article. The extension changes the background color, surrounding text, and link color."
           id_para2="project-paragraph"
           link="https://github.com/saharafathelbab/FixMe-Chrome-Extension"
           name="View Documentation"
