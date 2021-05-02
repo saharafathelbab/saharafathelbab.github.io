@@ -67,13 +67,13 @@ const Button=(props)=> {
           <br/>
           <hr/>
           <a id="blog" className="menu-item" href="https://www.saharasdreams.com/"> My Blog</a>
-          <a id="youtube" className="menu-item" href="https://youtube.com/saharasdreams"> My YouTube Channel </a>
+          // <a id="youtube" className="menu-item" href="https://youtube.com/saharasdreams"> My YouTube Channel </a>
         </Menu>
 
       </div>
 
       <div className="container-for-main-header-area">
-        <Sahara name= "hi I'm Sahara. I write code and run a lot." title= "Front End Developer"/>
+        <Sahara name= "hi I'm Sahara. I write code and run a lot." title= "Developer"/>
 
       </div>
 
@@ -258,7 +258,7 @@ const Button=(props)=> {
         alttext="me"
         idtitle="nope"
         id_para2="mobile_size"
-        summary= "I graduated with my Bachelor’s Degree in Computer Science in May 2018 and since then I’ve been focused on my front end freelance work, learning new coding environments such as Augmented Reality, and improving my skillset."
+        summary= "Since graduating with my Bachelor’s Degree in Computer Science in May 2018, I’ve been focused on learning new coding environments such as Augmented Reality, and improving my skillset."
         show= "no-show"
         link={myresume}
         name="My Resume"
@@ -278,25 +278,34 @@ const Button=(props)=> {
           sectioninfo="Bachelor of Science in Computer Science, 2018"
         />
         <Section
-          sectiontitle="Certifications"
+          sectiontitle="FreeCodeCamp Certifications"
           sectioninfo="Responsive Web Design, 2019"
           additionalinfo="JavaScript Algorithms and Data Structures, 2020"
         />
         <Section
+          sectiontitle="Veeva Certifications"
+          sectioninfo="Veeva Approved Email Business Certification, 2021"
+          additionalinfo="Veeva CLM Business Certification, 2021"
+        />
+        <Section
           sectiontitle="Languages"
-          sectioninfo="Vanilla JavaScript, HTML/CSS, Python, PHP, Java"
+          sectioninfo="Vanilla JavaScript, HTML/CSS, Python, PHP, Java, SQL"
         />
         <Section
           sectiontitle="Framework/Libraries"
-          sectioninfo="React.js, A-Frame, three.js"
+          sectioninfo="React.js, A-Frame, three.js, jQuery"
         />
         <Section
           sectiontitle="Content Management Systems"
           sectioninfo="Kentico, WordPress, Squarespace"
         />
         <Section
-          sectiontitle="My Tools"
-          sectioninfo="Atom, Adobe XD, GitHub, MySQL"
+          sectiontitle="Technical Tools"
+          sectioninfo="Atom, Visual Studio Code, Git, SourceTree, Google Web Designer, Veeva CRM Application, Salesforce"
+        />
+        <Section
+          sectiontitle="Non-Technical Tools"
+          sectioninfo="Photoshop, Adobe Illustrator, Adobe XD, Zeplin"
         />
 
       </div>
@@ -307,7 +316,7 @@ const Button=(props)=> {
         id="message_square"
         alttext="space"
         about= "Let's Connect"
-        summary= "In need of a front end developer who thinks outside of the box? Look no further, let's get chatting!"
+        summary= "In need of a Developer who thinks outside of the box? Look no further, let's get chatting!"
       />
       <Button
       link="mailto:saharafathelbab1@gmail.com"
