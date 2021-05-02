@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "530a70cba730e82b70444c6f0e81efa0",
+    "revision": "dc92d7265ef5609a54810eb4e90aa769",
     "url": "/index.html"
   },
   {
-    "revision": "e9458730f826720f26ca",
-    "url": "/static/css/main.09e9de20.chunk.css"
+    "revision": "55c4dd66a1b3e0284899",
+    "url": "/static/css/main.5514f4c1.chunk.css"
   },
   {
-    "revision": "d9a03c2c76d44427e49e",
-    "url": "/static/js/2.fa7bc6df.chunk.js"
+    "revision": "b2a6d018d174520fa6e0",
+    "url": "/static/js/2.e1aa652d.chunk.js"
   },
   {
-    "revision": "e9458730f826720f26ca",
-    "url": "/static/js/main.34bd4ff0.chunk.js"
+    "revision": "55c4dd66a1b3e0284899",
+    "url": "/static/js/main.7976543e.chunk.js"
   },
   {
     "revision": "d26e02afba052cb6ac40",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d3b6ec041e1f46455b8d4eeaee79473",
     "url": "/static/media/cryptography.4d3b6ec0.png"
+  },
+  {
+    "revision": "322002f74d3c4f31b1de0d872b5b753a",
+    "url": "/static/media/fixme-chrome.322002f7.png"
   },
   {
     "revision": "d21becc440353296809b8746a6e24edd",
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fb5352a2ec22df2eb1850ac839fd3fdc",
     "url": "/static/media/sahara-background.fb5352a2.JPG"
+  },
+  {
+    "revision": "57ec342fcbc3be1cc18da363ee886acc",
+    "url": "/static/media/sahara-fathelbab-resume.57ec342f.pdf"
   },
   {
     "revision": "469444ea432df4b86a90355b55c4ed72",
