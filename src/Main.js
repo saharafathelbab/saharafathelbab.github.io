@@ -67,7 +67,7 @@ const Button=(props)=> {
           <br/>
           <hr/>
           <a id="blog" className="menu-item" href="https://www.saharasdreams.com/"> My Blog</a>
-          // <a id="youtube" className="menu-item" href="https://youtube.com/saharasdreams"> My YouTube Channel </a>
+          {/* <a id="youtube" className="menu-item" href="https://youtube.com/saharasdreams"> My YouTube Channel </a> */}
         </Menu>
 
       </div>
