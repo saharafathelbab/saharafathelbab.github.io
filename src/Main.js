@@ -73,7 +73,7 @@ const Button=(props)=> {
       </div>
 
       <div className="container-for-main-header-area">
-        <Sahara name= "hi I'm Sahara. I write code and run a lot." title= "Developer"/>
+        <Sahara name= "hi I'm Sahara. I write code and run a lot." title= "Software Engineer"/>
 
       </div>
 
