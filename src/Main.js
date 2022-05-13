@@ -7,10 +7,10 @@ import goldline from './Drawings/gold-line.png';
 import message from './Drawings/space-message.png';
 import hankandstellas from'./Work/hankandstellas.png';
 import asme from'./Work/asme.png';
-import portfolio from'./Work/myportfolio.png';
-import instanthealth from'./Work/instanthealth.png';
+import codeHelp from'./Work/codeHelp.jpeg';
+import scandiweb from'./Work/scandiweb.png';
 import snowypotter from'./Work/snowypotter.jpeg';
-import cryptography from'./Work/cryptography.png';
+import marvelBirthdays from'./Work/marvelBirthdays.png';
 import chromefixme from'./Work/fixme-chrome.png';
 import './bars.css';
 import './Main.css';
@@ -144,20 +144,21 @@ const Button=(props)=> {
       </div>
       <br/>
       <br/>
-      <Projects subtitle="Personal Projects"/>
+      <Projects subtitle="Pinned Projects on Github"/>
       <br/>
 
       <div className="grid">
+
       <About
-        photo={portfolio}
-        alttext="portfolio landing"
+        photo={marvelBirthdays}
+        alttext="Birthday Reminder"
         id="grey"
-        title="My Portfolio"
-        technicalscope="Technical Scope: React.js, HTML, CSS, "
-        summary= "Developed my portfolio in React.js using stateless functional components throughout to ensure DRY Principle; receives and renders appropriate data to screen via class and id hierarchy."
+        title="Birthday Reminder"
+        technicalscope="Technical Scope: React.js, HTML, CSS, REST API JSON Server"
+        summary= "Birthday Reminder project created originally by John Smilga with a few of my own modifications. Utilizing JSON Server, allows user to add and delete users from JSON file."
         id_para2="project-paragraph"
-        link="https://github.com/saharafathelbab/saharafathelbab.github.io"
-        name="View Documentation"
+        link="https://github.com/saharafathelbab/birthday-reminder"
+        name="View Files"
         class="button-style"
         show="no-show"
         />
@@ -165,15 +166,15 @@ const Button=(props)=> {
       <br/>
       <br/>
       <About
-        photo={snowypotter}
-        alttext="augmented reality harry potter in snowman form"
+        photo={scandiweb}
+        alttext="Scandiweb"
         id="grey"
-        title="Snowy Potter"
-        technicalscope="Technical Scope: three.js, A-Frame, Glitch"
-        summary= "Developed an Augmented Reality snowman in three.js framework, A-Frame, entity-component-system(ECS) architecture with container objects to envelop data containers. Integrated Quick Response (QR) code."
+        title="Scandiweb Junior Test Assignment"
+        technicalscope="Technical Scope: PHP, MySQL, JavaScript, HTML, CSS, Bootstrap"
+        summary= "A user is able to add a new product to the MySQL Database, and  delete. Also able to view a list of all products in ascending order from the primary key, name. Logic for products on both add product page and product display page is polymorphism done in both JavaScript and PHP."
         id_para2="project-paragraph"
-        link="https://github.com/saharafathelbab/Snowy-Potter"
-        name="View Documentation"
+        link="https://github.com/saharafathelbab/Scandiweb"
+        name="View Files"
         class="button-style"
         show="no-show"
         />
@@ -181,34 +182,18 @@ const Button=(props)=> {
       <br/>
       <br/>
       <About
-        photo={cryptography}
-        alttext="photo of cryptography landing page"
+        photo={codeHelp}
+        alttext="Coding Challenge Prep"
         id="grey"
-        title="Cryptography"
-        technicalscope="Technical Scope: JavaScript, HTML, CSS"
-        summary= "Established an advanced code and cipher system with asynchronous patterns of JavaScript that converts input into code; inspired by the book Code Girls, received positive feedback from author."
+        title="Coding Challenge Prep"
+        technicalscope="Technical Scope: Python and JavaScript"
+        summary= "To share with Discord group I created - if someone needs help solving a problem I solved, each code file has detailed comments to understand my thought process getting to the solution."
         id_para2="project-paragraph"
-        link="https://github.com/saharafathelbab/Cryptography"
-        name="View Documentation"
+        link="https://github.com/saharafathelbab/coding-challenge-prep"
+        name="View Files"
         class="button-style"
         show="no-show"
         />
-        <br/>
-        <br/>
-        <br/>
-        <About
-          photo={instanthealth}
-          alttext="instant health home photo"
-          id="grey"
-          title="Hackathon: Instant Health"
-          technicalscope="Technical Scope: JavaScript, HTML, CSS"
-          summary= "Partnered with team through the construction of wireframes and prototypes of a web application that displayed user's historical medical data. Received rank in the top four submissions of the healthcare category."
-          id_para2="project-paragraph"
-          link="https://github.com/saharafathelbab/Instant-Health"
-          name="View Documentation"
-          class="button-style"
-          show="no-show"
-          />
         <br/>
         <br/>
         <br/>
@@ -221,10 +206,26 @@ const Button=(props)=> {
           summary= "Developed an extension that improves the readability and accessibility of a website/page/article. The extension changes the background color, surrounding text, and link color."
           id_para2="project-paragraph"
           link="https://github.com/saharafathelbab/FixMe-Chrome-Extension"
-          name="View Documentation"
+          name="View Files"
           class="button-style"
           show="no-show"
           />
+        <br/>
+        <br/>
+        <br/>
+        <About
+          photo={snowypotter}
+          alttext="augmented reality harry potter in snowman form"
+          id="grey"
+          title="Snowy Potter"
+          technicalscope="Technical Scope: three.js, A-Frame, Glitch"
+          summary= "Developed an Augmented Reality snowman in three.js framework, A-Frame, entity-component-system(ECS) architecture with container objects to envelop data containers. Integrated Quick Response (QR) code."
+          id_para2="project-paragraph"
+          link="https://github.com/saharafathelbab/Snowy-Potter"
+          name="View Files"
+          class="button-style"
+          show="no-show"
+        />
         </div>
       <br/>
       <br/>
@@ -232,7 +233,7 @@ const Button=(props)=> {
 
       <Button
       link="https://github.com/saharafathelbab?tab=repositories"
-      linkname="View More Personal Projects >"
+      linkname="View More Projects"
       class="button-view-more"/>
 
       </div>

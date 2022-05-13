@@ -154,6 +154,7 @@
 .italics{
   font-style: italic;
   font-size: 0.9em;
+  height:30px;
 }
 
 .project-photo{
@@ -174,6 +175,7 @@
 }
 #project-paragraph{
   padding: 0px 20px 10px 20px;
+  height:220px;
 }
 
 .paragraph_white{
@@ -220,18 +222,8 @@
 }
 
 .button-style:hover{
-  animation-name: background-color;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-}
-
-@keyframes background-color{
-  100%{
-    /* background-color: #ffda2c;
-    color: #2c51ff;
-    border-style: solid; */
-    transform:scale(1.1);
-  }
+  background-color:#000080;
+  cursor: pointer;
 }
 
 .button-view-more{
@@ -247,18 +239,9 @@
 }
 
 .button-view-more:hover{
-  animation-name: background-view-color;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-}
-
-@keyframes background-view-color{
-  100%{
-    /* background-color: #2c51ff;
-    color: white;
-    border-style: solid; */
-    transform:scale(1.1);
-  }
+  border-color:	#000080;
+  color: #000080;
+  cursor: pointer;
 }
 
 .contact-me-email{
@@ -277,6 +260,7 @@
   animation-name: background-view-contact;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
 @keyframes background-view-contact{
